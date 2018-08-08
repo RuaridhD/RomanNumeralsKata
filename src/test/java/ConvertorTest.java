@@ -13,13 +13,16 @@ public class ConvertorTest {
     }
 
     @Test
-    public void canConvert(){
+    public void canConvertGivenNumberIntoRomanNumeral(){
         assertEquals("I", convertor.generate(1));
         assertEquals("II", convertor.generate(2));
         assertEquals("III", convertor.generate(3));
         assertEquals("IV", convertor.generate(4));
         assertEquals("V", convertor.generate(5));
         assertEquals("VI", convertor.generate(6));
+        assertEquals("VII", convertor.generate(7));
+        assertEquals("VIII", convertor.generate(8));
+        assertEquals("IX", convertor.generate(9));
     }
 
     @Test
