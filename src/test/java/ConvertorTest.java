@@ -23,6 +23,17 @@ public class ConvertorTest {
         assertEquals("VII", convertor.generate(7));
         assertEquals("VIII", convertor.generate(8));
         assertEquals("IX", convertor.generate(9));
+        assertEquals("X", convertor.generate(10));
+        assertEquals("XI", convertor.generate(11));
+        assertEquals("XII", convertor.generate(12));
+        assertEquals("XIII", convertor.generate(13));
+        assertEquals("XIV", convertor.generate(14));
+        assertEquals("XV", convertor.generate(15));
+        assertEquals("XVI", convertor.generate(16));
+        assertEquals("XVII", convertor.generate(17));
+        assertEquals("XVIII", convertor.generate(18));
+        assertEquals("XIX", convertor.generate(19));
+        assertEquals("XX", convertor.generate(20));
     }
 
     @Test
