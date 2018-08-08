@@ -7,6 +7,10 @@ public class Convertor implements RomanNumeralGenerator {
     public String generate(int number) {
         StringBuilder numeral = new StringBuilder();
         if ((number > 0) && (number < 4000)) {
+            if (number == 5) {
+                numeral.append("V");
+                return numeral.toString();
+            }
             if (number == 4) {
                 numeral.append("IV");
                 return numeral.toString();

@@ -18,6 +18,8 @@ public class ConvertorTest {
         assertEquals("II", convertor.generate(2));
         assertEquals("III", convertor.generate(3));
         assertEquals("IV", convertor.generate(4));
+        assertEquals("V", convertor.generate(5));
+        assertEquals("VI", convertor.generate(6));
     }
 
     @Test
