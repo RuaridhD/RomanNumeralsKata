@@ -8,11 +8,15 @@ public class Convertor implements RomanNumeralGenerator {
         StringBuilder numeral = new StringBuilder();
         int counter = number;
         if ((number > 0) && (number < 4000)) {
-            if (number >= 5) {
+            if (number == 9) {
+                numeral.append("IX");
+                counter -= 9;
+            }
+            if (counter >= 5) {
                 numeral.append("V");
                 counter -= 5;
             }
-            if (number == 4) {
+            if (counter == 4) {
                 numeral.append("IV");
                 counter -= 4;
             }
