@@ -45,6 +45,12 @@ public class ConvertorTest {
         assertEquals("XXX", convertor.generate(30));
         assertEquals("XL", convertor.generate(40));
         assertEquals("L", convertor.generate(50));
+        assertEquals("XC", convertor.generate(90));
+        assertEquals("C", convertor.generate(100));
+        assertEquals("CD", convertor.generate(400));
+        assertEquals("D", convertor.generate(500));
+        assertEquals("CM", convertor.generate(900));
+        assertEquals("M", convertor.generate(1000));
     }
 
     @Test
