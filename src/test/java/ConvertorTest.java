@@ -33,7 +33,18 @@ public class ConvertorTest {
         assertEquals("XVII", convertor.generate(17));
         assertEquals("XVIII", convertor.generate(18));
         assertEquals("XIX", convertor.generate(19));
-        assertEquals("XX", convertor.generate(20));
+        assertEquals("XXI", convertor.generate(21));
+        assertEquals("XXII", convertor.generate(22));
+        assertEquals("XXIII", convertor.generate(23));
+        assertEquals("XXIV", convertor.generate(24));
+        assertEquals("XXV", convertor.generate(25));
+        assertEquals("XXVI", convertor.generate(26));
+        assertEquals("XXVII", convertor.generate(27));
+        assertEquals("XXVIII", convertor.generate(28));
+        assertEquals("XXIX", convertor.generate(29));
+        assertEquals("XXX", convertor.generate(30));
+        assertEquals("XL", convertor.generate(40));
+        assertEquals("L", convertor.generate(50));
     }
 
     @Test
