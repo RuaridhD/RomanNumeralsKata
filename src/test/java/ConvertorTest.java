@@ -62,4 +62,14 @@ public class ConvertorTest {
     public void cantEnterNumberAbove3999(){
         assertEquals("Please only enter numbers between 1 - 3999", convertor.generate(4000));
     }
+
+    @Test
+    public void canConvertRandomEdgeCases(){
+        assertEquals("MMMCMXCIX", convertor.generate(3999));
+        assertEquals("MMM", convertor.generate(3000));
+        assertEquals("MMCDL", convertor.generate(2450));
+        assertEquals("MDCCLXXXIII", convertor.generate(1783));
+        assertEquals("MI", convertor.generate(1001));
+
+    }
 }

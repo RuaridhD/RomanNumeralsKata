@@ -22,7 +22,6 @@ public class Convertor implements RomanNumeralGenerator {
         numeralValues.put(900, "CM");
         numeralValues.put(1000, "M");
 
-        StringBuilder numeral = new StringBuilder();
 
         if ((number > 0) && (number < 4000)) {
             int nearestNumber = numeralValues.floorKey(number);
